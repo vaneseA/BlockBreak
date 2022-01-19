@@ -22,3 +22,4 @@ struct Variables {
     static var isplayed = false
     
 }
+//sdfdsf
