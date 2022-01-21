@@ -63,6 +63,12 @@ class Stages {
         //Variables.ball.physicsBody?.applyImpulse(CGVector(dx: 10, dy: 10))//삭제
         Variables.ball.physicsBody?.linearDamping = 0 //공 속도 줄어드니까 이걸로 해결
     }
+    //바닥설정
+    func bottomImage(){
+        let bottom = SKSpriteNode()
+        bottom.size = CGSize
+    }
+    
     //핸드폰 경계
     func border(){
         let border = SKPhysicsBody(edgeLoopFrom: Variables.scene.frame)

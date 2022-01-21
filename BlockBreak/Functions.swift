@@ -58,6 +58,10 @@ extension GameScene {
         }
     }
     
+    func didBegin(_ contact: SKPhysicsContact) {
+        <#code#>
+    }
+    
     //기울기로 패들 움직이기
     func tiliting(){
         motion.accelerometerUpdateInterval = 0.1
